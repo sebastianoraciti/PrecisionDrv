@@ -1,0 +1,10 @@
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\bin\Release\PrecisionDriverTester.exe.config
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\bin\Release\PrecisionDriverTester.exe
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\bin\Release\PrecisionDriverTester.pdb
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.csproj.AssemblyReference.cache
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.Form1.resources
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.Properties.Resources.resources
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.csproj.GenerateResource.cache
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.csproj.CoreCompileInputs.cache
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.exe
+D:\Personal - Work\Work - Clienti\Aim Assist\PrecisionAim Project C#\Driver Precision\test driver\PrecisionDriverTester\PrecisionDriverTester\obj\Release\PrecisionDriverTester.pdb

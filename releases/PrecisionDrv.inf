@@ -1,0 +1,69 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%ManufacturerName%
+CatalogFile=precisiondrv.cat
+DriverVer = 10/17/2025,15.20.15.601
+PnpLockdown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+precisiondrv.sys = 1,,
+
+; =================== Architecture Sections ===================
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64.10.0,NTarm64.10.0
+
+[Standard.NTamd64.10.0]
+%PrecisionDrv.DeviceDesc%=PrecisionDrv_Device, Root\PrecisionDrv
+
+[Standard.NTarm64.10.0]
+%PrecisionDrv.DeviceDesc%=PrecisionDrv_Device, Root\PrecisionDrv
+
+; =================== Device Installation ===================
+
+[PrecisionDrv_Device.NT]
+CopyFiles = Drivers_Dir
+
+[PrecisionDrv_Device.NT.HW]
+AddReg = UpperFilter_AddReg
+
+[UpperFilter_AddReg]
+; Keyboard UpperFilters
+HKR,,"UpperFilters",0x00010008,"PrecisionDrv"
+; Mouse UpperFilters
+HKR,,"UpperFilters",0x00010008,"PrecisionDrv"
+
+; =================== Service Installation ===================
+
+[PrecisionDrv_Device.NT.Services]
+AddService = PrecisionDrv,%SPSVCINST_ASSOCSERVICE%, PrecisionDrv_Service_Inst
+
+[PrecisionDrv_Service_Inst]
+DisplayName    = %PrecisionDrv.SVCDESC%
+ServiceType    = 1
+StartType      = 3
+ErrorControl   = 1
+ServiceBinary  = %12%\precisiondrv.sys
+LoadOrderGroup = Base
+
+; =================== Files ===================
+
+[Drivers_Dir]
+precisiondrv.sys
+
+; =================== Strings ===================
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="Università - Progetto Driver"
+DiskName="PrecisionDrv Installation Disk"
+PrecisionDrv.DeviceDesc="PrecisionDrv Input Interceptor"
+PrecisionDrv.SVCDESC="PrecisionDrv Input Interception Service"
