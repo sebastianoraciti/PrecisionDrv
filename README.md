@@ -112,7 +112,7 @@ sha256sum -c SHA256SUMS.txt
 
 ## ⚠️ Disclaimer
 
-The full kernel driver source code is proprietary and privately maintained by **Seby Raciti**.  
+The full kernel driver source code is proprietary and privately maintained by **Sebastiano Raciti**.  
 Only safe, non-functional public components are released for transparency, certification, and educational research.
 
 Unauthorized redistribution, reverse engineering, or modification of compiled driver binaries is strictly prohibited.
