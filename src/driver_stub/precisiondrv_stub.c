@@ -7,7 +7,7 @@
  * Use this stub for documentation, build examples, and for Certum verification.
  * Do NOT expect full driver functionality from this file.
  *
- * Copyright (c) 2025 Seby Raciti (stub)
+ * Copyright (c) 2025 Sebastiano Raciti (stub)
  */
 
 #include <ntddk.h>
@@ -200,3 +200,4 @@ PrecisionDispatchDeviceControl(
 }
 
 /* End of stub file */
+
